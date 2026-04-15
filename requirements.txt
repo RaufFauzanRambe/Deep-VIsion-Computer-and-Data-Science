@@ -1,0 +1,97 @@
+# ============================================================
+# Computer Vision & Data Science Web Application
+# Requirements - All FREE and Open Source Libraries
+# ============================================================
+
+# ============================================================
+# STREAMLIT - Web Framework for Data Science Apps
+# ============================================================
+# Streamlit is a free, open-source Python framework that makes it easy
+# to create beautiful web applications for machine learning and data science.
+# No API keys required - runs entirely on your local machine.
+streamlit>=1.28.0
+
+# ============================================================
+# ULTRALYTICS YOLO - Object Detection (100% FREE)
+# ============================================================
+# Ultralytics YOLO (You Only Look Once) is a state-of-the-art object detection
+# library that runs ENTIRELY LOCALLY on your machine.
+# 
+# HOW IT WORKS (No API Required):
+# 1. The library downloads pre-trained models (yolov8n.pt, yolov8s.pt, etc.)
+#    to your local cache on first use (~6MB for nano model)
+# 2. All inference runs on YOUR CPU/GPU - no cloud API calls
+# 3. The model is stored locally at ~/.config/ultralytics/ or ./weights/
+# 4. No internet connection needed after initial model download
+# 5. Zero API costs - unlimited detections forever
+#
+# Available Pre-trained Models (all free):
+# - yolov8n.pt (nano - fastest, smallest)
+# - yolov8s.pt (small)
+# - yolov8m.pt (medium)
+# - yolov8l.pt (large)
+# - yolov8x.pt (extra large - most accurate)
+ultralytics>=8.0.0
+
+# ============================================================
+# OPENCV - Computer Vision Library
+# ============================================================
+# OpenCV is the most popular open-source computer vision library.
+# All operations run locally on your machine - no API calls needed.
+# Used for:
+# - Image processing and manipulation
+# - Drawing bounding boxes on images
+# - Webcam video capture and streaming
+# - Real-time video frame processing
+opencv-python>=4.8.0
+opencv-python-headless>=4.8.0  # For server environments
+
+# ============================================================
+# NUMPY - Numerical Computing
+# ============================================================
+# NumPy is the fundamental package for numerical computing in Python.
+# Used for:
+# - Array operations on image data
+# - Mathematical computations
+# - Efficient matrix operations
+numpy>=1.24.0
+
+# ============================================================
+# PANDAS - Data Analysis and Manipulation
+# ============================================================
+# Pandas is a free, open-source data analysis library.
+# Used for:
+# - Storing detection results in DataFrames
+# - Data manipulation and analysis
+# - CSV export functionality
+pandas>=2.0.0
+
+# ============================================================
+# PLOTLY - Interactive Data Visualization
+# ============================================================
+# Plotly is a free, open-source graphing library.
+# All charts are rendered locally in the browser - no API needed.
+# Used for:
+# - Interactive bar charts for object counts
+# - Interactive pie charts for distribution visualization
+# - Beautiful, responsive data visualizations
+plotly>=5.18.0
+
+# ============================================================
+# PILLOW - Image Processing
+# ============================================================
+# Pillow is the friendly fork of PIL (Python Imaging Library).
+# Used for:
+# - Image loading and format conversion
+# - Image display in Streamlit
+# - Image manipulation operations
+Pillow>=10.0.0
+
+# ============================================================
+# OPTIONAL: For GPU Acceleration (if you have NVIDIA GPU)
+# ============================================================
+# Uncomment the following line if you have a CUDA-capable GPU:
+# torch>=2.0.0 --index-url https://download.pytorch.org/whl/cu118
+
+# For CPU-only (default, works on any machine):
+# PyTorch CPU version is automatically installed with ultralytics
