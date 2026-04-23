@@ -1,0 +1,26 @@
+user_id,age,gender,income,education_level,occupation,city,signup_date,last_active_date,total_purchases,avg_purchase_amount,total_sessions,avg_session_duration_min,is_premium,churned
+U001,28,Male,52000,Bachelor,Software Engineer,New York,2023-01-15,2024-11-20,45,78.50,320,12.5,True,False
+U002,34,Female,61000,Master,Data Analyst,San Francisco,2023-02-08,2024-10-05,32,92.30,210,8.3,True,False
+U003,22,Male,28000,High School,Student,Chicago,2023-03-22,2024-06-10,8,25.00,45,5.2,False,True
+U004,45,Female,85000,PhD,Research Director,Boston,2022-11-30,2024-12-01,67,145.20,540,18.7,True,False
+U005,31,Male,47000,Bachelor,Marketing Specialist,Los Angeles,2023-05-10,2024-09-15,22,55.80,130,7.1,False,True
+U006,27,Female,55000,Master,UX Designer,Seattle,2023-04-18,2024-11-28,38,88.40,280,14.2,True,False
+U007,52,Male,92000,Master,VP of Sales,Austin,2022-08-20,2024-12-05,89,210.50,680,22.3,True,False
+U008,29,Female,43000,Bachelor,Graphic Designer,Portland,2023-06-01,2024-07-22,15,42.10,85,6.8,False,True
+U009,38,Male,72000,Master,Product Manager,Denver,2022-12-12,2024-11-30,56,125.70,420,16.5,True,False
+U010,25,Female,35000,Bachelor,Content Writer,Nashville,2023-07-05,2024-08-18,12,38.90,60,5.5,False,True
+U011,41,Male,68000,PhD,Senior Scientist,San Diego,2022-09-15,2024-12-01,72,168.30,510,19.8,True,False
+U012,33,Female,58000,Master,HR Manager,Minneapolis,2023-01-28,2024-10-30,41,95.60,295,13.1,True,False
+U013,26,Male,31000,Bachelor,Jr. Developer,Raleigh,2023-08-14,2024-05-01,5,22.50,30,4.8,False,True
+U014,49,Female,78000,Master,Director of Operations,Atlanta,2022-10-08,2024-12-03,78,182.40,590,20.1,True,False
+U015,36,Male,64000,Bachelor,Financial Analyst,Charlotte,2023-03-05,2024-11-25,48,110.20,350,15.4,True,False
+U016,23,Female,26000,High School,Intern,Phoenix,2023-09-20,2024-04-10,3,15.00,15,3.2,False,True
+U017,44,Male,88000,Master,Engineering Manager,San Jose,2022-07-12,2024-12-04,85,195.80,620,21.5,True,False
+U018,30,Female,50000,Bachelor,Account Manager,Dallas,2023-04-25,2024-09-28,28,65.30,170,9.5,False,False
+U019,37,Male,59000,Master,Business Analyst,Houston,2023-02-14,2024-11-15,44,102.40,310,14.0,True,False
+U020,28,Female,46000,Bachelor,Social Media Manager,Miami,2023-06-30,2024-08-05,18,48.70,95,6.4,False,True
+U021,55,Male,95000,PhD,Chief Technology Officer,New York,2021-12-01,2024-12-06,120,280.50,850,25.0,True,False
+U022,32,Female,54000,Master,Civil Engineer,Philadelphia,2023-05-15,2024-10-22,35,82.60,240,11.8,True,False
+U023,24,Male,29000,Associate,Retail Associate,Detroit,2023-10-01,2024-03-15,4,18.20,20,3.8,False,True
+U024,42,Female,76000,Master,Clinical Research Manager,Baltimore,2022-11-18,2024-12-02,70,175.90,530,19.2,True,False
+U025,35,Male,62000,Bachelor,Solutions Architect,Salt Lake City,2023-01-05,2024-11-20,50,118.50,370,15.9,True,False
